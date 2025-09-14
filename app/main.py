@@ -85,12 +85,9 @@ async def detect_logo(file: UploadFile = File(...)):
         )
 
     try:
-        # Выполняем предсказание
         results = model.predict(source=image, conf=CONFIDENCE_THRESHOLD)
 
-        # Форматируем результат в соответствии с контрактом API
         detections = []
-        # `results` - это список, обычно с одним элементом
         for result in results:
             for box in result.boxes.xyxy:  # .xyxy возвращает тензор [xmin, ymin, xmax, ymax]
                 x_min, y_min, x_max, y_max = [int(coord) for coord in box]
