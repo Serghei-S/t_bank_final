@@ -2,8 +2,6 @@
 venv/
 __pycache__/
 *.pyc
-/weights/*.pt
-/weights/*.pth
 /validation_data/
 .idea/
 .vscode/
