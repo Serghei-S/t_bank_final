@@ -111,7 +111,11 @@ Model summary (fused): 72 layers, 11,125,971 parameters, 0 gradients, 28.4 GFLOP
 
 ### Скачивание артефактов
 
+<<<<<<< HEAD
 *   **Валидационный набор данных: https://drive.google.com/file/d/1iF4lJmug4Aejtv3BsVn-qYQUPiJoDHE4/view?usp=sharing
+=======
+*   **Валидационный набор данных:** [ССЫЛКА НА ВАШУ ПАПКУ validation_data НА GITHUB / GOOGLE DRIVE]
+>>>>>>> 3d945c1656fb130d70760326c533c2c5b59b89a3
 
 ### Установка и запуск
 
